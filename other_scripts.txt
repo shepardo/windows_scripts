@@ -1,0 +1,12 @@
+ 
+ 
+ https://www.hellotech.com/blog/why-does-my-computer-keep-waking-from-sleep-mode#:~:text=To%20find%20out%20what%20is%20causing%20your%20computer%20to%20wake,left%20corner%20of%20your%20screen.
+ 
+To find out what is causing your computer to wake up, open Command Prompt as an administrator and type in 
+powercfg /lastwake
+
+Then type 
+powercfg /waketimers
+
+
+to find out if you have any wake timers on.
